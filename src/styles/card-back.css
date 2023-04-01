@@ -1,0 +1,19 @@
+.card-back{
+    background-image: url('/images/bg-card-back.png');
+    position:absolute;
+    height: 13.6rem;
+    width: 24.8rem;
+    border-radius: 15px;
+    top: 20rem;
+    left: 10rem;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    padding-right: 3rem;
+    box-sizing: border-box;
+}
+
+.card-back > p{
+    color: white;
+    letter-spacing: 2px;
+}

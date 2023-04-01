@@ -1,0 +1,100 @@
+.form{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.input-section{
+    text-align: left;
+    width: 20rem;
+    margin-bottom: 1rem;
+    justify-content: start;
+}
+
+.input-section2{
+    text-align: left;
+    width: 20rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+label{
+    font-size: 14px;
+    text-transform: uppercase;
+    color: hsl(278, 94%, 30%);
+}
+
+.input{
+    width: 100%;
+    padding: 0.5rem;
+    border-radius: 5px;
+    box-sizing: border-box;
+    border: 1px solid rgba(96, 5, 148, 0.3);
+    font-size: 17px;
+    margin-top: 0.3rem;
+    display: flex;
+    flex-direction: column;
+}
+
+::placeholder{
+    color: rgb(197, 197, 197);
+}
+
+input:focus-visible{
+    outline: none;
+    border: 1.3px solid hsl(278, 94%, 30%);
+}
+
+.date-section{
+    display: flex;
+    flex-direction: column;
+    width: 48%;
+}
+
+label, .exp{
+    font-size: 14px;
+    text-transform: uppercase;
+    color: hsl(278, 94%, 30%);
+    line-height: 1.5;
+    margin: 0
+}
+
+.dates > input{
+    width: 4.5rem;
+}
+
+.dates{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+button{
+    width: 100%;
+    margin-top: 2rem;
+    background-color: hsl(278, 94%, 30%);
+    color: white;
+    border: none;
+    border-radius: 10px;
+
+}
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
+
+.span{
+    font-size: 14px;
+    margin: 0;
+    color: red;
+    width: 100%;
+}
+
+.short{
+    max-width: 4.5rem;
+}

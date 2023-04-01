@@ -1,0 +1,16 @@
+#root {
+  width: 100%;
+  margin: 0;
+  text-align: center;
+}
+
+.App{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+.image{
+  height: 100vh;
+  overflow: hidden;
+}
