@@ -1,13 +1,14 @@
 .card-front{
     position: absolute;
-    width: 24.8rem;
-    height: 13.6rem;
+    height: 13rem;
+    width: 22rem;
     background-image: url('/images/bg-card-front.png');
+    background-size: 22rem 13rem;
     border-radius: 15px;
     padding: 2rem;
     box-sizing: border-box;
     top: 5rem;
-    left: 5rem;
+    left: 5vw;
     letter-spacing: 2px;
 }
 
@@ -40,13 +41,24 @@ section{
 }
 
 section > h1{
-    font-size: 27px;
+    font-size: 1.3rem;
     color: white;
     line-height: 0.5;
 }
 
 section > h2{
-    font-size: 15px;
+    font-size: 0.8rem;
     color: white;
     text-transform: uppercase;
+}
+
+@media screen and (max-width:1000px) {
+    .card-front{
+        top: 8rem;
+        left: 5vw;
+        height: 12rem;
+        width: 19rem;
+        background-size: 19rem 12rem;
+        z-index: 10;
+    }   
 }

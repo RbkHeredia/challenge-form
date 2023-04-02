@@ -14,3 +14,12 @@
   height: 100vh;
   overflow: hidden;
 }
+
+@media screen and (max-width:1000px) {
+  .App{
+    flex-direction: column;
+  }
+  .image{
+    height: 35vh;
+  }
+}
